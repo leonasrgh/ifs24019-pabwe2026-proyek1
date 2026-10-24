@@ -57,7 +57,8 @@ onMounted(load);
 </script>
 
 <template>
-  <p v-if="loading" class="text-slate-500">Memuat...</p>
+    <h1 v-if="!ride" class="text-2xl font-extrabold">Detail Tumpangan</h1>
+  <p v-if="loading" class="mt-4 text-slate-500">Memuat...</p>
   <template v-else>
     <p v-if="error" role="alert" class="mb-4 rounded-lg bg-red-50 text-red-700 px-3 py-2">{{ error }}</p>
 
