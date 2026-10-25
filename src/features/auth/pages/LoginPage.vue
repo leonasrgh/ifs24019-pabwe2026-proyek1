@@ -35,7 +35,7 @@ async function submit() {
     <p v-if="error" role="alert" class="rounded-lg bg-red-50 text-red-700 text-sm px-3 py-2">{{ error }}</p>
     <label class="block text-sm font-medium">
       Username
-      <input id="username" v-model="username" required autocomplete="username"
+        <input id="username" v-model="username" type="text" required autocomplete="username"
         class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 focus:outline-2 focus:outline-indigo-500" />
     </label>
     <label class="block text-sm font-medium">

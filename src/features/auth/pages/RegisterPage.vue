@@ -37,7 +37,7 @@ async function submit() {
     </label>
     <label class="block text-sm font-medium">
       Username
-      <input id="username" v-model="form.username" required autocomplete="username"
+        <input id="username" v-model="form.username" type="text" required autocomplete="username"
         class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 focus:outline-2 focus:outline-indigo-500" />
     </label>
     <label class="block text-sm font-medium">
